@@ -10,6 +10,7 @@ export default function Form() {
     e.preventDefault();
     const alturaM = altura / 100; 
     const imc = peso / (alturaM * alturaM);
+   /*  retorna o resultado o imc com apenas duas casas decimais */
     setResultado(imc.toFixed(2));
   
     if (imc < 18.5) {
@@ -52,6 +53,7 @@ export default function Form() {
       </form>
        <button onClick={calcularIMC}>Calcular IMC</button>
     
+   {/*  So envia o resultado se for true e tiver um valor para o mesmo */}
       {resultado && (
         <div>
           <h2>Resultado do IMC: {resultado}</h2>
