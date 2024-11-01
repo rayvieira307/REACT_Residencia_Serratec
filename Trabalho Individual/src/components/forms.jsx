@@ -30,7 +30,7 @@ export default function Form() {
 
 
   return (
-    <div>
+    <div className="forms_style">
       <h1>Insira os seus dados :)</h1>
       <form onSubmit={calcularIMC}>
      <label>Peso KG: </label>
@@ -41,7 +41,7 @@ export default function Form() {
           onChange={(e) => setPeso(e.target.value)}
         />
       <p/>
-      <label>Altura CM: </label>
+      <label>Altura CM:</label>
       <input 
       type = "text" 
       placeholder="Digite sua altura " 
@@ -60,6 +60,6 @@ export default function Form() {
           <h2>Classificação: {classificacao}</h2>
         </div>
       )}
-    </div>
+      </div>
   );
 }
