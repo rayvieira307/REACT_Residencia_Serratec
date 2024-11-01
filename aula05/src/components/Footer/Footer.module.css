@@ -1,0 +1,12 @@
+footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 330px;
+    background-color: rgb(171, 158, 228);
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style: none ;
+}

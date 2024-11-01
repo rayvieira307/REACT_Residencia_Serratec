@@ -1,0 +1,13 @@
+body {
+  padding: 10px;
+  background-color: gray;
+}
+
+h1 {
+  color: darkblue;
+}
+
+p{
+  background-color: #fff;
+  padding: 20px;
+}
